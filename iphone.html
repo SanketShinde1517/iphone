@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iphone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+        .iphone{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+
+        }
+        .border{
+            display:block;
+            background-color: black;
+            height: 550px;
+            width: 280px;
+            text-align: center;
+            color: aliceblue;
+            border-radius: 40px;
+          
+        }
+        .camera{
+            height: 20px;
+            width: 147px;
+            background-color:black;
+            margin-left: 56px;
+            border-radius: 0px 0px 15px 15px;
+          
+        }
+        .cameraimg{
+            height: 20px;
+            width: 100px; 
+         }
+
+        .display{
+            display:block;
+            background-image:   url(/img/backgaund.jpg)   ;
+            height: 536px;
+            width: 260px;
+            text-align: center;
+            color:black;
+            border-radius: 30px;
+            margin-left: 9px;
+            margin-top: 7px;
+        }
+        .button{
+            margin-top: -300px;
+            display:block;
+        }
+        .silet{
+            height: 20px;
+            width:3px; 
+            background-color:black;
+            margin-top:10px;
+            border-radius: 10px 0px 0px 10px ;
+        }
+        .vol1{
+            height: 30px;
+            width: 3px;
+            margin-top: 10px; 
+            background-color:black; 
+            border-radius: 10px 0px 0px 10px ;
+        }
+        .vol2{
+            height: 30px;
+            width:3px; 
+            background-color:black;
+            margin-top:10px;
+            border-radius: 10px 0px 0px 10px ;
+        }
+         .on{
+            height: 50px;
+            width:3px; 
+            background-color:black;
+            margin-top:-400px;
+            margin-left: 280px;
+            border-radius: 0px 10px 10px 0px ;
+            
+         }
+        .jio{
+            color:black;
+            margin-right: 190px;
+            font-size: 14px;
+            margin-top: -17px;
+        }
+      .charging{
+        color: black;
+        margin-left: 193px;
+        font-size: 13px;
+        margin-top: -15px;
+      }
+      .time{
+          margin-top: 60px;
+          font-size: 50px;
+      }
+      .date{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+      }
+       .song{
+        height: 260px;
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.543);
+        margin-left: 5px;
+        margin-top: -100px;
+        border-radius: 20px;
+       }
+        audio{
+           width: 240px;
+            margin-top: 170px;
+            
+        }
+        .songimg{
+            height:100px;
+            margin-top: 20px;
+            border-radius: 10px;
+            
+        }
+    </style>
+</head>
+<body> 
+    <div class="iphone">
+        <div class="button">
+            <div class="silet"></div>
+            <div class="vol1"></div>
+            <div class="vol2"></div>
+        </div>
+        <div class="border">
+            <div class="display">
+                <div class="camera"><img class="cameraimg" src="/img/camera.jpg" alt=""></div>
+
+                 <div  class="jio" ><i class="fa-solid fa-signal"></i> Jio</div>
+
+                 <div class="charging"><i class="fa-solid fa-battery-full"></i>100%</div>
+
+                 <div class="time">12:00<br><div class="date">Sunday,1 March</div> </div>  
+                 <div class="songimg"><img class="songimg" src="/img/song.jpg" alt=""></div>
+                 <div class="song"> <audio controls  src="/img/WhatsApp Audio 2023-02-23 at 10.02.53.mp3"></audio>  </div>
+
+            </div>
+            <div class="on"></div>
+          </div>
+      </div>
+      
+</body>
+</html>
